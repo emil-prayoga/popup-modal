@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day 8</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <h1>My Project</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+
+    <section id="home">
+        <div class="home-right">
+            <h1>Welcome to Belikopi</h1>
+           <a href="#menu" class="show">Show Product</a>
+        </div>
+        <div class="home-left">
+            <img src="https://picsum.photos/400/200" alt="Random Image">
+        </div>
+    </section>
+    <section id="menu">
+        <h1 class="tengah">Our Menu</h1>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project A</h3>
+                <p>Deskripsi singkat project A.</p>
+                <button class="openModal">Lihat Detail</button>
+            </div>
+            <div class="project-card">
+                <h3>Project B</h3>
+                <p>Deskripsi singkat project B.</p>
+                <button class="openModal">Lihat Detail</button>
+            </div>
+            <div class="project-card">
+                <h3>Project C</h3>
+                <p>Deskripsi singkat project C.</p>
+                <button class="openModal">Lihat Detail</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+         <div class="contact-right">
+            <h1>Get in Touch</h1>
+            <p>Kirim pesan untuk menghubungi kami</p>
+        </div>
+        <div class="contact-left">
+            <input type="text" placeholder="Masukkan Email">
+            <textarea name="pesan" id="pesan" placeholder="Masukkan Pesan"></textarea>
+            <button>Kirim</button>
+        </div>
+    
+    </section>
+
+
+<footer>
+    <p>&copy; 2026 My Portfolio</p>
+</footer>
+
+<!-- Overlay & Modal -->
+<div class="overlay" id="overlay"></div>
+<div id="modal" class="modal">
+    <span id="closeModal" class="close">&times;</span>
+    <h2>Detail Project</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam, earum.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
