@@ -111,6 +111,11 @@ input[type="text"], textarea{
     border:2px solid #ccc;
 }
 
+textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+
 input:focus, textarea:focus{
     border: 2px solid #4a90e2;
 }
